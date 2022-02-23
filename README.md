@@ -113,7 +113,7 @@ The returned iterator protocol-compliant object has the following properties:
 
 The function supports the following `options`:
 
--   **iter**: number of iterations. Default: `1e308`.
+-   **iter**: maximum number of iterations. Default: `1e308`.
 -   **tol**: tolerance at which to terminate further evaluation of the continued fraction. Default: [floating-point epsilon][@stdlib/constants/float64/eps].
 
 By default, in theory, the function returns an infinite iterator; however, in practice, due to limited precision, every floating-point number is a rational number, and, thus, every returned iterator will end in a finite number of iterations. To explicitly cap the maximum number of iterations, set the `iter` option.
@@ -316,8 +316,6 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-iter-sequences-continued-fraction/main/LICENSE
 
 [@stdlib/constants/float64/eps]: https://github.com/stdlib-js/constants-float64-eps
-
-<!-- </related-links> -->
 
 </section>
 
