@@ -50,6 +50,7 @@
     "@stdlib/utils-fifo": "^0.0.x"
   },
   "devDependencies": {
+    "@stdlib/assert-is-array": "^0.0.x",
     "@stdlib/assert-is-iterator-like": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/constants-float64-pi": "^0.0.x",
