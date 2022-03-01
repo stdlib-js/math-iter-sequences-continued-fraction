@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-iter-sequences-continued-fraction",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create an iterator which generates a list of all continued fraction terms which can be obtained given the precision of a provided number.",
   "license": "Apache-2.0",
   "author": {
