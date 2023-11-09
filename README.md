@@ -336,6 +336,12 @@ console.log( 'computed: %d', evaluate( terms ) );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math-iter/utils/continued-fraction`][@stdlib/math/iter/utils/continued-fraction]</span><span class="delimiter">: </span><span class="description">evaluate the terms of a continued fraction.</span>
+
 </section>
 
 <!-- /.related -->
@@ -410,6 +416,12 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-iter-sequences-continued-fraction/main/LICENSE
 
 [@stdlib/constants/float64/eps]: https://github.com/stdlib-js/constants-float64-eps
+
+<!-- <related-links> -->
+
+[@stdlib/math/iter/utils/continued-fraction]: https://github.com/stdlib-js/math-iter-utils-continued-fraction
+
+<!-- </related-links> -->
 
 </section>
 
