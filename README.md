@@ -99,6 +99,11 @@ are called **convergents**.
 ## Usage
 
 ```javascript
+import iterContinuedFractionSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-continued-fraction@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-sequences-continued-fraction/tags). For example,
+
+```javascript
 import iterContinuedFractionSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-continued-fraction@v0.2.0-deno/mod.js';
 ```
 
@@ -264,7 +269,7 @@ var bool = it.next().done;
 
 ```javascript
 import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@deno/mod.js';
-import iterContinuedFractionSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-continued-fraction@v0.2.0-deno/mod.js';
+import iterContinuedFractionSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-continued-fraction@deno/mod.js';
 
 function evaluate( terms ) {
     var sum;
