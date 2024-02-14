@@ -99,6 +99,11 @@ are called **convergents**.
 ## Usage
 
 ```javascript
+import iterContinuedFractionSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-continued-fraction@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-sequences-continued-fraction/tags). For example,
+
+```javascript
 import iterContinuedFractionSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-continued-fraction@v0.2.0-esm/index.mjs';
 ```
 
@@ -269,7 +274,7 @@ var bool = it.next().done;
 <script type="module">
 
 import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@esm/index.mjs';
-import iterContinuedFractionSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-continued-fraction@v0.2.0-esm/index.mjs';
+import iterContinuedFractionSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-continued-fraction@esm/index.mjs';
 
 function evaluate( terms ) {
     var sum;
