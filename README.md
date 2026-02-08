@@ -99,7 +99,7 @@ are called **convergents**.
 ## Usage
 
 ```javascript
-import iterContinuedFractionSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-continued-fraction@deno/mod.js';
+import iterContinuedFractionSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-continued-fraction@v0.2.3-deno/mod.js';
 ```
 
 #### iterContinuedFractionSeq( x, \[options] )
@@ -264,7 +264,7 @@ var bool = it.next().done;
 
 ```javascript
 import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@deno/mod.js';
-import iterContinuedFractionSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-continued-fraction@deno/mod.js';
+import iterContinuedFractionSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-continued-fraction@v0.2.3-deno/mod.js';
 
 function evaluate( terms ) {
     var sum;
